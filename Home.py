@@ -20,7 +20,7 @@ with col_b:
     with col_5:
         st.markdown(
             """<a href='mailto:tommaso_latorre@hotmail.com'><img src="data:image/png;base64,{}" width="75"></a>""".format(
-                base64.b64encode(open('images/contacts/mail.png', "rb").read()).decode()), unsafe_allow_html=True, )
+                base64.b64encode(open('images/contacts/Mail.png', "rb").read()).decode()), unsafe_allow_html=True, )
     with col_6:
         st.markdown("""<a href='https://wa.me/34603206204'><img src="data:image/png;base64,{}" width="75"></a>""".format(
             base64.b64encode(open('images/contacts/phone.png', "rb").read()).decode()), unsafe_allow_html=True, )
